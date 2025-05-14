@@ -20,3 +20,5 @@ export class Chat {
     @Column({ type: 'timestamp', default: () => new Date() })
     createdAt: Date;
 }
+
+
